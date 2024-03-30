@@ -1,6 +1,6 @@
-const Meeting = ({children} : {children: {id : string}}) => {
+const Meeting = ({params} : {params: {id : string}}) => {
   return (
-    <div>Meeting</div>
+    <>Meeting id: # {params.id}</>
   )
 }
 export default Meeting
